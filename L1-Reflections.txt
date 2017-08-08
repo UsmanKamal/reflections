@@ -1,0 +1,29 @@
+How did using FC/diff on different versions of files helped in identifying the changes?
+
+The FC only lists the changed/removed/altered parts of the files so it saves time. And easier to observe changes.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Knowing what and when changes were made, and to which part we have to revert or make changes.
+
+How Often to Commit?
+
+One commit per logical change.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+It gives user the power, as commits should be made a/c to logical change automated committing won't work nicely.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Usually the files we operate on via Google Docs etc aren't related but files in repository of Git are mostly related.
+Also Google Docs doesn't offer repository for files but folders.
+
+How can you use the commands git log and git diff to view the history of files?
+
+By log we get overview of changes and diff brings us specific changes like which line was added/deleted/changed so we can use id's of commits to identify them uniquely.
+
+How might using version control make you more confident to make changes that could break something?
+
+You get all the list of changes saved so you aren't worried of whether I will be able to revert back or not, which usually is the case when saving files manually as
+one forgets whether some part x change y was saved or not, even if it was saved there is only an inefficient way to search the changes.
