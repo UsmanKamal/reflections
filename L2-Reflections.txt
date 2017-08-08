@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+An empty repository gets created and any files in the area are listed as UNTRACKED FILES, because Git doesn't commits when you create a new repository as it
+doesn't know what files to commit or not. The need to create a repository is to keep relevant files in a single area where you can track their changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Files in Staging Area start getting tracked by Git and now can be committed to the repo. The value it offers is to transfer the files user thinks are important or
+need to be tracked.
