@@ -12,3 +12,19 @@ Forks: are clones of anyone's repo in the context of GitHub which are only avail
 Clones: are copies of a repository at a local system or at GitHub. Same as above but we can also make clones of forks
 Branches: are sort of small part of a project like some experimental feature. A project can have multiple branches,
 used for experimental features usually while not disturbing the normal flow of work.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+We can work on it even when offline. And merge it with our (master).
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Share code via cloud services or emails and ask the receiver to run and check at their end and comment.
+And if there are any changes sent it back so I can incorporate those changes into main version. Only thing easier would be to not
+setup and learn Git/GitHub. Sending mails to and forth is inefficient and a headache. Management overall would be pretty hard.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When the change is logically different than the master or if its a new feature we aren't sure whether it will be useful.
+Not using branches is simple and straight forward but their advantage is that they separate the risks of implementing new
+things in a separate place away from master so your main space remains working.
