@@ -5,3 +5,10 @@ When I work on multiple computers or there are more people working on a project 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 There might be changes which need to be reviewed before getting pulled. GitHub cannot review them itself.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks: are clones of anyone's repo in the context of GitHub which are only available on GitHub. Used to have anyone's repo
+Clones: are copies of a repository at a local system or at GitHub. Same as above but we can also make clones of forks
+Branches: are sort of small part of a project like some experimental feature. A project can have multiple branches,
+used for experimental features usually while not disturbing the normal flow of work.
