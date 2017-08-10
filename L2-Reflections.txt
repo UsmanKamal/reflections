@@ -7,3 +7,26 @@ How is the staging area different from the working directory and the repository?
 
 Files in Staging Area start getting tracked by Git and now can be committed to the repo. The value it offers is to transfer the files user thinks are important or
 need to be tracked.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+As commit only forwards changes of things in Staging Area so I will only add things logically changed to the SA.
+This strategy will make sure one commit per logical change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be useful when making significant changes to project alongside working on the progress of normal version of project. As for history management
+the changes relevant to a branch will be managed separately.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams make it easier to identify the new branches from the master which isn't very easy to identify using id's.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Commits of both branches are combined together. We represent it that way because now only merged branch can reach to all those commits of both branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves time but doesn't works always (conflict handling). Manual merge gives the advantage of handling the conflicts but it takes time and
+often it is very boring to search for conflicts manually.
